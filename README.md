@@ -14,13 +14,11 @@ Frontend: Angular (TypeScript)
 Backend: ASP.NET Core Web API (C#)
 
 
-Database: SQL Server (or PostgreSQL)
+Database: SQL Server
 
 
-MFA Methods: Twilio (SMS) + Google Authenticator (TOTP)
+MFA Methods: (SMS) + (TOTP) App Authenticator
 
-
-Authentication: ASP.NET Core Identity + JWT
 
 
 
@@ -54,7 +52,7 @@ Create authentication endpoints (Register, Login).
 Generate JWT tokens.
 
 
-Store users in SQL Server (EF Core).
+Store users in SQL Server (ADO).
 
 
 📌 Prompt 3: Implement Angular Authentication Service
